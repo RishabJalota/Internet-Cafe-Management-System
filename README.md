@@ -1,9 +1,4 @@
-# Idyll Cafe website
 A responsive website for a cafe, built from scratch and including an order form that does simple calculations and creates a temporary record of the data.
-
-**Demo**: https://idyll-cafe.netlify.app/
-
-![cafe website preview](https://i.postimg.cc/cCKwdqxm/idyll-screens.png)
 
 ## How it's made
 **Tech used:** HTML, CSS, JavaScript.
@@ -40,7 +35,3 @@ As always, refactoring to bring the code more in line with OOP principles and to
 * Pageload speed: Large visual files obviously impact this. 
 * JavaScript query selectors: Especially for the dynamically generated menu, I started with a brute force (and very not DRY) approach first to get it working and have now refactored so that the code takes advantage of the naming schema. Would like to use data- attributes next time for this instead (all things I would want to apply to the earlier Memory Challenge project, below). 
 
-Some question remains around why condensing the JavaScript files (e.g., moving what's in orders.js into main.js) can cause errors.
-
-## Related projects
-**Memory Challenge:** https://github.com/h-yung/memory-challenge
