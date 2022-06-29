@@ -1,5 +1,4 @@
 
-// shift intro bloc for menu
 const menu = document.querySelector('#burgerInput')
 const hero = document.querySelector('#hero')
 
