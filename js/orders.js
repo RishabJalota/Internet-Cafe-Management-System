@@ -21,7 +21,6 @@ let products = [
     {id:"t", sale: true, name: 'Hazelnut praline tart', price:4.25},
 ]
 
-// will contain the selected items and quantities
 let currentOrder = [];
 
 /*************
